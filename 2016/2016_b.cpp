@@ -17,12 +17,14 @@ int main()
         if (n == 0)
             return 0;
 
+        vector<char> c(n);
         bool flag = false;
         vector<int> votes(26, 0);
         for (int i = 0; i < n; i++) {
-            char c;
-            cin >> c;
-            int c_i = (int)(c - 'A');
+            cin >> c[i];
+        }
+        for (int i = 0; i < n; i++) {
+            int c_i = (int)(c[i] - 'A');
             votes[c_i]++;
             int mx, mx_2;
             int mx_idx, mx_2_idx;
