@@ -32,25 +32,6 @@ while(1){
     return 0;
 ```
 
-# 2018C 超高層ビル「みなとハルカス」
-- しゃくとり法だと無理そう
-- 時間制限8secなので実はいけた説
-- この不等式をgetするの無理じゃね？
-- [はまやん](https://www.hamayanhamayan.com/entry/2018/07/08/112205)
-- [ツバサの備忘録](https://emtubasa.hateblo.jp/entry/2019/03/19/222913)
-  - n=sqrt(b)が上限とわかる
-    - この理由がよくわからん
-    - $c$の列挙は$O(\sqrt(b))$で行えるので，$[1,\sqrt{2b}]$からiを取り出し，$2b$が$i$で割り切れるとき，$i$および$2b/i$が$c$の候補になる
-    - これが一番わかりやすかった
-- [二分探索](https://kimiyuki.net/writeup/algo/etc/icpc-2018-domestic-c/)
-
-# 2018D 全チームによるプレーオフ
-- リーグ戦苦手
-- ここらで苦手克服しておくべきか？
-- バックトラッキングによる全探索
-- 全探索という手法を選択できるのか？
-    - [はまやん](https://www.hamayanhamayan.com/entry/2018/07/15/225020)
-        - これが一番わかりやすかった
 
 # 2016
 - [審判長による国内予選講評（確定版）](https://icpc.iisf.or.jp/2016-tsukuba/review-by-chief-judge/?lang=ja)
@@ -130,5 +111,25 @@ while(1){
 
 # 2018
 - [審判長講評](https://icpc.iisf.or.jp/2018-yokohama/wp-content/uploads/sites/5/2018/08/commentary.pdf)
+## 2018C 超高層ビル「みなとハルカス」
+- しゃくとり法だと無理そう
+- 時間制限8secなので実はいけた説
+- この不等式をgetするの無理じゃね？
+- [はまやん](https://www.hamayanhamayan.com/entry/2018/07/08/112205)
+- [ツバサの備忘録](https://emtubasa.hateblo.jp/entry/2019/03/19/222913)
+  - n=sqrt(b)が上限とわかる
+    - この理由がよくわからん
+    - $c$の列挙は$O(\sqrt(b))$で行えるので，$[1,\sqrt{2b}]$からiを取り出し，$2b$が$i$で割り切れるとき，$i$および$2b/i$が$c$の候補になる
+    - これが一番わかりやすかった
+- [二分探索](https://kimiyuki.net/writeup/algo/etc/icpc-2018-domestic-c/)
+
+## 2018D 全チームによるプレーオフ
+- リーグ戦苦手
+- ここらで苦手克服しておくべきか？
+- バックトラッキングによる全探索
+- 全探索という手法を選択できるのか？
+    - [はまやん](https://www.hamayanhamayan.com/entry/2018/07/15/225020)
+        - これが一番わかりやすかった
+
 
 - clang
